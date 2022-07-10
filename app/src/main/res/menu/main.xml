@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/action_share"
+        android:icon="@drawable/more"
+        app:showAsAction="ifRoom">
+            <menu>
+
+                <item
+                    android:id="@+id/action_share"
+                    android:title="@string/action_share"
+                    android:icon="@drawable/share"  />
+
+                <item
+                    android:id="@+id/clearPlayList"
+                    android:title="@string/clear_playlist"
+                    android:icon="@drawable/remove">
+                </item>
+
+                <item
+                    android:id="@+id/fullScreen"
+                    android:title="@string/fullscreen"
+                    android:icon="@drawable/fullscreen">
+                </item>
+
+                <item android:title="Sort"
+                    android:icon="@drawable/sort">
+                        <menu>
+                            <item
+                                android:id="@+id/Inorder"
+                                android:title="@string/inorder"
+                                />
+
+                            <item
+                                android:id="@+id/DisOrder"
+                                android:title="@string/disorder">
+                            </item>
+                        </menu>
+                </item>
+            </menu>
+    </item>
+</menu>

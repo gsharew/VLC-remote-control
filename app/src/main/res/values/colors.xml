@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#A16B08</color>
+    <color name="purple_500">#A16B08</color>
+    <color name="purple_700">#A16B08</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#0E0D0D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="headerColor">#FF5722</color>
+    <color name="grayColor">#C8C8C8</color>
+    <color name="greenColor">#78A867</color>
+    <color name="list_color">#F1F0ED</color>
+    <color name="control_background">#BA8015</color>
+    <color name="playing_music_indicator">#FF0000</color>
+    <color name="fileColor">#FF5722</color>
+    <color name="controlbg">#F0E7EA</color>
+    <color name="red">#FF1100</color>
+    <color name="ConnColor">#2E930A</color>
+    <color name="headerandfootercolor">#1B313A</color>
+    <color name="bodycolor">#132127</color>
+</resources>
