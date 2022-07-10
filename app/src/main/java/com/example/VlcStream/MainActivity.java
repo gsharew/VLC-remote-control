@@ -113,11 +113,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if(themeValue.equals("enabled"))
         {
+        	//this enables the dark mode to on
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         }
 
         else
         {
+        	//this enables the dark mode to off
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         }
     }
